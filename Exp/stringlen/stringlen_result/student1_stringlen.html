@@ -1,0 +1,122 @@
+<html>
+<head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+h3 { margin-top: 40px; text-align: center; }
+h4 { margin-top: 30px; }
+p { margin: 0; }
+.test { margin-bottom: 20px; }
+.passed { color: green; }
+.failed { color: red; }
+</style>
+</head>
+<body>
+<h3>Running marker for stringlen on student1.stringlen</h3>
+<h4>Running Extra and Random Tests</h4>
+<br><div class="test"><p><strong>Test 1:</strong></p>
+<p>Trying:     student1.stringlen('one', 'two', 'three')</p>
+<p>Expecting:     11</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 2:</strong></p>
+<p>Trying:     student1.stringlen('al', 'aba', 'cat')</p>
+<p>Expecting:     8</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 3:</strong></p>
+<p>Trying:     student1.stringlen('apples', 'baba', '?')</p>
+<p>Expecting:     11</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 4:</strong></p>
+<p>Trying:     student1.stringlen('ape', '', '')</p>
+<p>Expecting:     3</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 5:</strong></p>
+<p>Trying:     student1.stringlen('', '', '')</p>
+<p>Expecting:     0</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 6:</strong></p>
+<p>Trying:     student1.stringlen('aple', 'baba', 'ckjj')</p>
+<p>Expecting:     12</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 7:</strong></p>
+<p>Trying:     student1.stringlen('2i','E#','v1%u3(2')</p>
+<p>Expecting:     11</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 8:</strong></p>
+<p>Trying:     student1.stringlen('T"G','yzcy5','1<?ZGhdK')</p>
+<p>Expecting:     16</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 9:</strong></p>
+<p>Trying:     student1.stringlen('Y}','6TC','oF(w2)')</p>
+<p>Expecting:     11</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 10:</strong></p>
+<p>Trying:     student1.stringlen('-Fj_p%Z}q','6!7/\'1WvD',' )JU')</p>
+<p>Expecting:     22</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 11:</strong></p>
+<p>Trying:     student1.stringlen(':R/6<]+-~','Z6$>-',':*237igYkJ')</p>
+<p>Expecting:     24</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 12:</strong></p>
+<p>Trying:     student1.stringlen('3+((R5MZ','0t','a')</p>
+<p>Expecting:     11</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 13:</strong></p>
+<p>Trying:     student1.stringlen('/L#','e^','[')</p>
+<p>Expecting:     6</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 14:</strong></p>
+<p>Trying:     student1.stringlen('=vi@','#','\'Z~*``3+,')</p>
+<p>Expecting:     14</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 15:</strong></p>
+<p>Trying:     student1.stringlen('XR+}',' [:g~W#Y','M1fHZ?In`')</p>
+<p>Expecting:     21</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 16:</strong></p>
+<p>Trying:     student1.stringlen('@8u^','.7x>','HI_MCb#[v!')</p>
+<p>Expecting:     18</p></div>
+<p>ok</p>
+<br><p>Done Extra and Random Tests</p>
+<p>16 of 16 tests passed <span class="passed">(100% passed)</span></p>
+
+<br><br><h4> Running Property test </h4>
+<table  border="1" cellspacing="0" cellpadding="4"><tr>
+<th>Test Cases
+</th>
+<th>stringlen(a, b, c) == stringlen(b, c, a)</th>
+<th>stringlen(a, a, a) == 3 * len(a)</th>
+<th>stringlen(a, b, c) >= 0</th>
+<th>Pass Rate
+</th><th>Pass Percentage</th></tr><tr>
+<th>a: ' (o ;agx8,'<br>b: '^    [wT -'<br>c: 'j d\'-   I'<br></th>
+<td>True</td>
+<td>True</td>
+<td>True</td>
+<td>3&nbspof&nbsp3</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>a: 'weaR'<br>b: 'LIGhT'<br>c: 'stay'<br></th>
+<td>True</td>
+<td>True</td>
+<td>True</td>
+<td>3&nbspof&nbsp3</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>a: 'qarbecxvpp'<br>b: 'wwidzglygx'<br>c: 'jgbklzqakm'<br></th>
+<td>True</td>
+<td>True</td>
+<td>True</td>
+<td>3&nbspof&nbsp3</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>a: 'GESXGFUHJF'<br>b: 'RCKKKUXDNU'<br>c: 'OHHQMPXRSB'<br></th>
+<td>True</td>
+<td>True</td>
+<td>True</td>
+<td>3&nbspof&nbsp3</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>a: ''<br>b: ''<br>c: ''<br></th>
+<td>True</td>
+<td>True</td>
+<td>True</td>
+<td>3&nbspof&nbsp3</td>
+<td>100.0<span>&#37;</span></td></tr></table></body>
+</html>

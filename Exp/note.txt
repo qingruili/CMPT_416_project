@@ -1,0 +1,97 @@
+|- ......
+   |- Exp (folder store the Auto grading tool) - current environment.
+       |- test.py
+          do_test.py
+          ......
+          add2ints (the folder we create to store students answer and correct answer)
+            |- teacher.py (file to store )
+               student1.py
+               ......
+
+
+
+# The enviornment should be in the folder where do_test.py is located. (same position as add_question.py)
+
+#Under the environment
+#Create a folder to store students answer and correct answers: 
+#       same name as the function needs to be tested
+
+#Under the folder we created before
+#Create a file to store correct answer we created: 
+#       teacher.py (can only use this name)
+
+# In teacher.py:
+#Teacher writes the function in teacher.py.
+#Type annotation require on parameters
+#Extra Tests section is optional
+#Properties section is optional
+#Rename Unit Tests to Extra Tests
+
+
+The environment should be where add_question.py is. (same position as do_test.py)
+
+Command for creating a new question:
+
+> python3 add_question.py add2ints(function_name)
+
+Creates:
+add2ints folder
+add2ints/teacher.py
+
+Inside teacher.py:
+
+# teacher.py
+
+# put parameters in the function definition; use type annotations, e.g.
+# def add2ints(a:int, b:int):
+def add2ints(x):
+    """
+    @Question statement
+    (describe question here; include some doctests)
+
+    @Extra Tests
+    (optional doctests, not seen by student until they get marking back)
+
+    @Properties
+    (optional)
+    """
+    # put correct solution code here
+    pass
+
+# Copy students' files into the folder where teacher.py is.
+
+#make sure that the function to be tested has the same argument names as those
+    defined in the properties.
+
+    for example if we have the property: 
+        len(s) == len(clean_text(s))
+
+    then clean_text declartion should look like this:
+        def clean_text(s: str): ....
+
+# Do not have any extra space between properties
+    Example:
+    """
+    ......
+
+    @Properties
+    add2ints(a, b) == add2ints(b, a)
+    add2ints(a, 0) == a
+    add2ints(0, b) == b
+    """
+
+if do not want to add any properties or the extra tests, keep what the file gives before like
+"""
+@Properties
+(optional)
+"""
+----------------------------------------------------
+
+The environment should be where do_test.py is
+
+Command for running the tests:
+
+> python3 do_test.py add2ints(function_name) 10(number_of_randomtest)
+
+When running the command, all the students result will in the function_name_result folder. 
+Each student's work is separately and under the name of their file.

@@ -1,0 +1,190 @@
+<html>
+<head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+h3 { margin-top: 40px; text-align: center; }
+h4 { margin-top: 30px; }
+p { margin: 0; }
+.test { margin-bottom: 20px; }
+.passed { color: green; }
+.failed { color: red; }
+</style>
+</head>
+<body>
+<h3>Running marker for lower_text on student2.lower_text</h3>
+<h4>Running Extra and Random Tests</h4>
+<br><div class="test"><p><strong>Test 1:</strong></p>
+<p>Trying:     student2.lower_text('CAT')</p>
+<p>Expecting:     'cat'</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 2:</strong></p>
+<p>Trying:     student2.lower_text('Sam!')</p>
+<p>Expecting:     'sam!'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('Sam!')</p>
+<p>Expected:</p>
+<p>    'sam!'</p>
+<p>Got:</p>
+<p>    's'</p>
+<br><div class="test"><p><strong>Test 3:</strong></p>
+<p>Trying:     student2.lower_text('1 two 3 FOUR')</p>
+<p>Expecting:     '1 two 3 four'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('1 two 3 FOUR')</p>
+<p>Expected:</p>
+<p>    '1 two 3 four'</p>
+<p>Got:</p>
+<p>    'fur'</p>
+<br><div class="test"><p><strong>Test 4:</strong></p>
+<p>Trying:     student2.lower_text('Hello, world!')</p>
+<p>Expecting:     'hello, world!'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('Hello, world!')</p>
+<p>Expected:</p>
+<p>    'hello, world!'</p>
+<p>Got:</p>
+<p>    'h'</p>
+<br><div class="test"><p><strong>Test 5:</strong></p>
+<p>Trying:     student2.lower_text('')</p>
+<p>Expecting:     ''</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 6:</strong></p>
+<p>Trying:     student2.lower_text('bL')</p>
+<p>Expecting:     'bl'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('bL')</p>
+<p>Expected:</p>
+<p>    'bl'</p>
+<p>Got:</p>
+<p>    'l'</p>
+<br><div class="test"><p><strong>Test 7:</strong></p>
+<p>Trying:     student2.lower_text('h] 3MT')</p>
+<p>Expecting:     'h] 3mt'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('h] 3MT')</p>
+<p>Expected:</p>
+<p>    'h] 3mt'</p>
+<p>Got:</p>
+<p>    'mt'</p>
+<br><div class="test"><p><strong>Test 8:</strong></p>
+<p>Trying:     student2.lower_text('(8e_KFeK&')</p>
+<p>Expecting:     '(8e_kfek&'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('(8e_KFeK&')</p>
+<p>Expected:</p>
+<p>    '(8e_kfek&'</p>
+<p>Got:</p>
+<p>    'kfk'</p>
+<br><div class="test"><p><strong>Test 9:</strong></p>
+<p>Trying:     student2.lower_text(']4I')</p>
+<p>Expecting:     ']4i'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text(']4I')</p>
+<p>Expected:</p>
+<p>    ']4i'</p>
+<p>Got:</p>
+<p>    'i'</p>
+<br><div class="test"><p><strong>Test 10:</strong></p>
+<p>Trying:     student2.lower_text(')y<Rk')</p>
+<p>Expecting:     ')y<rk'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text(')y<Rk')</p>
+<p>Expected:</p>
+<p>    ')y<rk'</p>
+<p>Got:</p>
+<p>    'r'</p>
+<br><div class="test"><p><strong>Test 11:</strong></p>
+<p>Trying:     student2.lower_text('#_7J')</p>
+<p>Expecting:     '#_7j'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('#_7J')</p>
+<p>Expected:</p>
+<p>    '#_7j'</p>
+<p>Got:</p>
+<p>    'j'</p>
+<br><div class="test"><p><strong>Test 12:</strong></p>
+<p>Trying:     student2.lower_text('`.!h')</p>
+<p>Expecting:     '`.!h'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('`.!h')</p>
+<p>Expected:</p>
+<p>    '`.!h'</p>
+<p>Got:</p>
+<p>    ''</p>
+<br><div class="test"><p><strong>Test 13:</strong></p>
+<p>Trying:     student2.lower_text('2*Vs@>(K')</p>
+<p>Expecting:     '2*vs@>(k'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('2*Vs@>(K')</p>
+<p>Expected:</p>
+<p>    '2*vs@>(k'</p>
+<p>Got:</p>
+<p>    'vk'</p>
+<br><div class="test"><p><strong>Test 14:</strong></p>
+<p>Trying:     student2.lower_text('hl/2a@.41l')</p>
+<p>Expecting:     'hl/2a@.41l'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('hl/2a@.41l')</p>
+<p>Expected:</p>
+<p>    'hl/2a@.41l'</p>
+<p>Got:</p>
+<p>    ''</p>
+<br><div class="test"><p><strong>Test 15:</strong></p>
+<p>Trying:     student2.lower_text('vLLMu')</p>
+<p>Expecting:     'vllmu'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.lower_text('vLLMu')</p>
+<p>Expected:</p>
+<p>    'vllmu'</p>
+<p>Got:</p>
+<p>    'llm'</p>
+<br><p>Done Extra and Random Tests</p>
+<p>2 of 15 tests passed <span class="failed">(13.3% passed)</span></p>
+
+<br><br><h4> Running Property test </h4>
+<table  border="1" cellspacing="0" cellpadding="4"><tr>
+<th>Test Cases
+</th>
+<th>len(s) == len(lower_text(s))</th>
+<th>Idempotent</th>
+<th>Pass Rate
+</th><th>Pass Percentage</th></tr><tr>
+<th>s: '[  P zDc 3'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: 'MaRriAGe'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: 'zdxpehexze'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: 'JSLMIOAVND'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: ''<br></th>
+<td>True</td>
+<td>True</td>
+<td>2&nbspof&nbsp2</td>
+<td>100.0<span>&#37;</span></td></tr></table></body>
+</html>

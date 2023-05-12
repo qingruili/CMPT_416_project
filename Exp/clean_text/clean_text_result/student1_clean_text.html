@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+h3 { margin-top: 40px; text-align: center; }
+h4 { margin-top: 30px; }
+p { margin: 0; }
+.test { margin-bottom: 20px; }
+.passed { color: green; }
+.failed { color: red; }
+</style>
+</head>
+<body>
+<h3>Running marker for clean_text on student1.clean_text</h3>
+<h4>Running Extra and Random Tests</h4>
+<br><div class="test"><p><strong>Test 1:</strong></p>
+<p>Trying:     student1.clean_text('Hello, world!')</p>
+<p>Expecting:     'Hello  world '</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 2:</strong></p>
+<p>Trying:     student1.clean_text('23 skidoo!')</p>
+<p>Expecting:     '   skidoo '</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 3:</strong></p>
+<p>Trying:     student1.clean_text('a\tb\nc')</p>
+<p>Expecting:     'a b c'</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 4:</strong></p>
+<p>Trying:     student1.clean_text('Hello, world!') == 'Hello  world '</p>
+<p>Expecting:     True</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 5:</strong></p>
+<p>Trying:     student1.clean_text('') == ''</p>
+<p>Expecting:     True</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 6:</strong></p>
+<p>Trying:     student1.clean_text('S6C3d~)')</p>
+<p>Expecting:     'S C d  '</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 7:</strong></p>
+<p>Trying:     student1.clean_text('0YH_66')</p>
+<p>Expecting:     ' YH   '</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 8:</strong></p>
+<p>Trying:     student1.clean_text('<QX(')</p>
+<p>Expecting:     ' QX '</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 9:</strong></p>
+<p>Trying:     student1.clean_text('F,SY')</p>
+<p>Expecting:     'F SY'</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 10:</strong></p>
+<p>Trying:     student1.clean_text('4z>=:RXI#d')</p>
+<p>Expecting:     ' z   RXI d'</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 11:</strong></p>
+<p>Trying:     student1.clean_text('h^*cNvCw')</p>
+<p>Expecting:     'h  cNvCw'</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 12:</strong></p>
+<p>Trying:     student1.clean_text('h"^4A"Xy\'3')</p>
+<p>Expecting:     'h   A Xy  '</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 13:</strong></p>
+<p>Trying:     student1.clean_text('O8P]."e2mO')</p>
+<p>Expecting:     'O P   e mO'</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 14:</strong></p>
+<p>Trying:     student1.clean_text('@')</p>
+<p>Expecting:     ' '</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 15:</strong></p>
+<p>Trying:     student1.clean_text('0')</p>
+<p>Expecting:     ' '</p></div>
+<p>ok</p>
+<br><p>Done Extra and Random Tests</p>
+<p>15 of 15 tests passed <span class="passed">(100% passed)</span></p>
+
+<br><br><h4> Running Property test </h4>
+<table  border="1" cellspacing="0" cellpadding="4"><tr>
+<th>Test Cases
+</th>
+<th>len(s) == len(clean_text(s))</th>
+<th>Idempotent</th>
+<th>Pass Rate
+</th><th>Pass Percentage</th></tr><tr>
+<th>s: 'u<1 R +k@ '<br></th>
+<td>True</td>
+<td>True</td>
+<td>2&nbspof&nbsp2</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'cOMmErCiaL'<br></th>
+<td>True</td>
+<td>True</td>
+<td>2&nbspof&nbsp2</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'rlsuoqoxbo'<br></th>
+<td>True</td>
+<td>True</td>
+<td>2&nbspof&nbsp2</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'RYXOMWCLEI'<br></th>
+<td>True</td>
+<td>True</td>
+<td>2&nbspof&nbsp2</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: ''<br></th>
+<td>True</td>
+<td>True</td>
+<td>2&nbspof&nbsp2</td>
+<td>100.0<span>&#37;</span></td></tr></table></body>
+</html>

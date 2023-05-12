@@ -1,0 +1,210 @@
+<html>
+<head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+h3 { margin-top: 40px; text-align: center; }
+h4 { margin-top: 30px; }
+p { margin: 0; }
+.test { margin-bottom: 20px; }
+.passed { color: green; }
+.failed { color: red; }
+</style>
+</head>
+<body>
+<h3>Running marker for add_strings on student3.add_strings</h3>
+<h4>Running Extra and Random Tests</h4>
+<br><div class="test"><p><strong>Test 1:</strong></p>
+<p>Trying:     student3.add_strings('one', 'two', 'three')</p>
+<p>Expecting:     'ONETWOTHREE'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('one', 'two', 'three')</p>
+<p>Expected:</p>
+<p>    'ONETWOTHREE'</p>
+<p>Got:</p>
+<p>    'onetwothree'</p>
+<br><div class="test"><p><strong>Test 2:</strong></p>
+<p>Trying:     student3.add_strings('apple', 'banaba', 'cat')</p>
+<p>Expecting:     'APPLEBANABACAT'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('apple', 'banaba', 'cat')</p>
+<p>Expected:</p>
+<p>    'APPLEBANABACAT'</p>
+<p>Got:</p>
+<p>    'applebanabacat'</p>
+<br><div class="test"><p><strong>Test 3:</strong></p>
+<p>Trying:     student3.add_strings('alAA', 'aBa', 'cat')</p>
+<p>Expecting:     'ALAAABACAT'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('alAA', 'aBa', 'cat')</p>
+<p>Expected:</p>
+<p>    'ALAAABACAT'</p>
+<p>Got:</p>
+<p>    'alaaabacat'</p>
+<br><div class="test"><p><strong>Test 4:</strong></p>
+<p>Trying:     student3.add_strings('Apple', 'sa', 'uce!')</p>
+<p>Expecting:     'APPLESAUCE!'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('Apple', 'sa', 'uce!')</p>
+<p>Expected:</p>
+<p>    'APPLESAUCE!'</p>
+<p>Got:</p>
+<p>    'applesauce!'</p>
+<br><div class="test"><p><strong>Test 5:</strong></p>
+<p>Trying:     student3.add_strings('Gpe', '', '')</p>
+<p>Expecting:     'GPE'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('Gpe', '', '')</p>
+<p>Expected:</p>
+<p>    'GPE'</p>
+<p>Got:</p>
+<p>    'gpe'</p>
+<br><div class="test"><p><strong>Test 6:</strong></p>
+<p>Trying:     student3.add_strings('', '', '')</p>
+<p>Expecting:     ''</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 7:</strong></p>
+<p>Trying:     student3.add_strings('a;Aple', 'baba', 'ckJJ')</p>
+<p>Expecting:     'A;APLEBABACKJJ'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('a;Aple', 'baba', 'ckJJ')</p>
+<p>Expected:</p>
+<p>    'A;APLEBABACKJJ'</p>
+<p>Got:</p>
+<p>    'a;aplebabackjj'</p>
+<br><div class="test"><p><strong>Test 8:</strong></p>
+<p>Trying:     student3.add_strings('{jm@{','S','0k4*$1BJ')</p>
+<p>Expecting:     '{JM@{S0K4*$1BJ'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('{jm@{','S','0k4*$1BJ')</p>
+<p>Expected:</p>
+<p>    '{JM@{S0K4*$1BJ'</p>
+<p>Got:</p>
+<p>    '{jm@{s0k4*$1bj'</p>
+<br><div class="test"><p><strong>Test 9:</strong></p>
+<p>Trying:     student3.add_strings('{V|ImI*_<','JC6','ENj')</p>
+<p>Expecting:     '{V|IMI*_<JC6ENJ'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('{V|ImI*_<','JC6','ENj')</p>
+<p>Expected:</p>
+<p>    '{V|IMI*_<JC6ENJ'</p>
+<p>Got:</p>
+<p>    '{v|imi*_<jc6enj'</p>
+<br><div class="test"><p><strong>Test 10:</strong></p>
+<p>Trying:     student3.add_strings('9,uz^7e\'SK','6&wI!tW','_\'B[|qibB')</p>
+<p>Expecting:     "9,UZ^7E'SK6&WI!TW_'B[|QIBB"</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('9,uz^7e\'SK','6&wI!tW','_\'B[|qibB')</p>
+<p>Expected:</p>
+<p>    "9,UZ^7E'SK6&WI!TW_'B[|QIBB"</p>
+<p>Got:</p>
+<p>    "9,uz^7e'sk6&wi!tw_'b[|qibb"</p>
+<br><div class="test"><p><strong>Test 11:</strong></p>
+<p>Trying:     student3.add_strings('Df{?Z([e','ToRB','"gF')</p>
+<p>Expecting:     'DF{?Z([ETORB"GF'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('Df{?Z([e','ToRB','"gF')</p>
+<p>Expected:</p>
+<p>    'DF{?Z([ETORB"GF'</p>
+<p>Got:</p>
+<p>    'df{?z([etorb"gf'</p>
+<br><div class="test"><p><strong>Test 12:</strong></p>
+<p>Trying:     student3.add_strings('Ahe58>I','%)GE0+OeH_','y8|Bb+vief')</p>
+<p>Expecting:     'AHE58>I%)GE0+OEH_Y8|BB+VIEF'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('Ahe58>I','%)GE0+OeH_','y8|Bb+vief')</p>
+<p>Expected:</p>
+<p>    'AHE58>I%)GE0+OEH_Y8|BB+VIEF'</p>
+<p>Got:</p>
+<p>    'ahe58>i%)ge0+oeh_y8|bb+vief'</p>
+<br><div class="test"><p><strong>Test 13:</strong></p>
+<p>Trying:     student3.add_strings('(^\'tmFgns%','`SzRqV]','g1=46Fc')</p>
+<p>Expecting:     "(^'TMFGNS%`SZRQV]G1=46FC"</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('(^\'tmFgns%','`SzRqV]','g1=46Fc')</p>
+<p>Expected:</p>
+<p>    "(^'TMFGNS%`SZRQV]G1=46FC"</p>
+<p>Got:</p>
+<p>    "(^'tmfgns%`szrqv]g1=46fc"</p>
+<br><div class="test"><p><strong>Test 14:</strong></p>
+<p>Trying:     student3.add_strings('[B9@','NwQk/kv7`','6+L9JM"N9')</p>
+<p>Expecting:     '[B9@NWQK/KV7`6+L9JM"N9'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('[B9@','NwQk/kv7`','6+L9JM"N9')</p>
+<p>Expected:</p>
+<p>    '[B9@NWQK/KV7`6+L9JM"N9'</p>
+<p>Got:</p>
+<p>    '[b9@nwqk/kv7`6+l9jm"n9'</p>
+<br><div class="test"><p><strong>Test 15:</strong></p>
+<p>Trying:     student3.add_strings('~(','Cnv?vWX2_','i2q:7WxSy/')</p>
+<p>Expecting:     '~(CNV?VWX2_I2Q:7WXSY/'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('~(','Cnv?vWX2_','i2q:7WxSy/')</p>
+<p>Expected:</p>
+<p>    '~(CNV?VWX2_I2Q:7WXSY/'</p>
+<p>Got:</p>
+<p>    '~(cnv?vwx2_i2q:7wxsy/'</p>
+<br><div class="test"><p><strong>Test 16:</strong></p>
+<p>Trying:     student3.add_strings('T#o[)v','S','lP6XR')</p>
+<p>Expecting:     'T#O[)VSLP6XR'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('T#o[)v','S','lP6XR')</p>
+<p>Expected:</p>
+<p>    'T#O[)VSLP6XR'</p>
+<p>Got:</p>
+<p>    't#o[)vslp6xr'</p>
+<br><div class="test"><p><strong>Test 17:</strong></p>
+<p>Trying:     student3.add_strings('3','Y%cM ZKL3>','J|D')</p>
+<p>Expecting:     '3Y%CM ZKL3>J|D'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student3.add_strings('3','Y%cM ZKL3>','J|D')</p>
+<p>Expected:</p>
+<p>    '3Y%CM ZKL3>J|D'</p>
+<p>Got:</p>
+<p>    '3y%cm zkl3>j|d'</p>
+<br><p>Done Extra and Random Tests</p>
+<p>1 of 17 tests passed <span class="failed">(5.9% passed)</span></p>
+
+<br><br><h4> Running Property test </h4>
+<table  border="1" cellspacing="0" cellpadding="4"><tr>
+<th>Test Cases
+</th>
+<th>len(s) + len(t) + len(u) == len(student3.add_strings(s, t, u))</th>
+<th>Pass Rate
+</th><th>Pass Percentage</th></tr><tr>
+<th>s: 'i  \1 T:>r'<br>t: ' J4Pc l @y'<br>u: 'W `?L\( t '<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'DeMOCrAtIc'<br>t: 'MAIN'<br>u: 'RAtHer'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'smdhfiersr'<br>t: 'ollhniavvr'<br>u: 'lkmuuigaud'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'DDDRPSDNDC'<br>t: 'NWBVGUUYES'<br>u: 'CMBISNZIYS'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: ''<br>t: ''<br>u: ''<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr></table></body>
+</html>

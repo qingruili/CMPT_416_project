@@ -1,0 +1,206 @@
+<html>
+<head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+h3 { margin-top: 40px; text-align: center; }
+h4 { margin-top: 30px; }
+p { margin: 0; }
+.test { margin-bottom: 20px; }
+.passed { color: green; }
+.failed { color: red; }
+</style>
+</head>
+<body>
+<h3>Running marker for combine_len on student4.combine_len</h3>
+<h4>Running Extra and Random Tests</h4>
+<br><div class="test"><p><strong>Test 1:</strong></p>
+<p>Trying:     student4.combine_len('one', 'two', 'three')</p>
+<p>Expecting:     [3, 3, 5]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('one', 'two', 'three')</p>
+<p>Expected:</p>
+<p>    [3, 3, 5]</p>
+<p>Got:</p>
+<p>    '335'</p>
+<br><div class="test"><p><strong>Test 2:</strong></p>
+<p>Trying:     student4.combine_len('alAA', 'B', 'cat')</p>
+<p>Expecting:     [4, 1, 3]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('alAA', 'B', 'cat')</p>
+<p>Expected:</p>
+<p>    [4, 1, 3]</p>
+<p>Got:</p>
+<p>    '413'</p>
+<br><div class="test"><p><strong>Test 3:</strong></p>
+<p>Trying:     student4.combine_len('applesd', '', 'ct')</p>
+<p>Expecting:     [7, 0, 2]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('applesd', '', 'ct')</p>
+<p>Expected:</p>
+<p>    [7, 0, 2]</p>
+<p>Got:</p>
+<p>    '702'</p>
+<br><div class="test"><p><strong>Test 4:</strong></p>
+<p>Trying:     student4.combine_len('Gpe', '', '')</p>
+<p>Expecting:     [3, 0, 0]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('Gpe', '', '')</p>
+<p>Expected:</p>
+<p>    [3, 0, 0]</p>
+<p>Got:</p>
+<p>    '300'</p>
+<br><div class="test"><p><strong>Test 5:</strong></p>
+<p>Trying:     student4.combine_len('', '', '')</p>
+<p>Expecting:     [0, 0, 0]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('', '', '')</p>
+<p>Expected:</p>
+<p>    [0, 0, 0]</p>
+<p>Got:</p>
+<p>    '000'</p>
+<br><div class="test"><p><strong>Test 6:</strong></p>
+<p>Trying:     student4.combine_len('a;Aple', 'baba', 'ckJJ')</p>
+<p>Expecting:     [6, 4, 4]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('a;Aple', 'baba', 'ckJJ')</p>
+<p>Expected:</p>
+<p>    [6, 4, 4]</p>
+<p>Got:</p>
+<p>    '644'</p>
+<br><div class="test"><p><strong>Test 7:</strong></p>
+<p>Trying:     student4.combine_len(')sU]oos','M','F~7Mf^')</p>
+<p>Expecting:     [7, 1, 6]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len(')sU]oos','M','F~7Mf^')</p>
+<p>Expected:</p>
+<p>    [7, 1, 6]</p>
+<p>Got:</p>
+<p>    '716'</p>
+<br><div class="test"><p><strong>Test 8:</strong></p>
+<p>Trying:     student4.combine_len('$','a=v5CDX','W#v!I')</p>
+<p>Expecting:     [1, 7, 5]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('$','a=v5CDX','W#v!I')</p>
+<p>Expected:</p>
+<p>    [1, 7, 5]</p>
+<p>Got:</p>
+<p>    '175'</p>
+<br><div class="test"><p><strong>Test 9:</strong></p>
+<p>Trying:     student4.combine_len('b^','*7`','`(5xk8PC')</p>
+<p>Expecting:     [2, 3, 8]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('b^','*7`','`(5xk8PC')</p>
+<p>Expected:</p>
+<p>    [2, 3, 8]</p>
+<p>Got:</p>
+<p>    '238'</p>
+<br><div class="test"><p><strong>Test 10:</strong></p>
+<p>Trying:     student4.combine_len('I-ua','|tyh0}oR','qt')</p>
+<p>Expecting:     [4, 8, 2]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('I-ua','|tyh0}oR','qt')</p>
+<p>Expected:</p>
+<p>    [4, 8, 2]</p>
+<p>Got:</p>
+<p>    '482'</p>
+<br><div class="test"><p><strong>Test 11:</strong></p>
+<p>Trying:     student4.combine_len('{0vQASLYh*',' h@','0`3X')</p>
+<p>Expecting:     [10, 3, 4]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('{0vQASLYh*',' h@','0`3X')</p>
+<p>Expected:</p>
+<p>    [10, 3, 4]</p>
+<p>Got:</p>
+<p>    '1034'</p>
+<br><div class="test"><p><strong>Test 12:</strong></p>
+<p>Trying:     student4.combine_len('u!BGk^','Qo&Q9','<[,FgbH*!')</p>
+<p>Expecting:     [6, 5, 9]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('u!BGk^','Qo&Q9','<[,FgbH*!')</p>
+<p>Expected:</p>
+<p>    [6, 5, 9]</p>
+<p>Got:</p>
+<p>    '659'</p>
+<br><div class="test"><p><strong>Test 13:</strong></p>
+<p>Trying:     student4.combine_len('7y','_rqD^>','~')</p>
+<p>Expecting:     [2, 6, 1]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('7y','_rqD^>','~')</p>
+<p>Expected:</p>
+<p>    [2, 6, 1]</p>
+<p>Got:</p>
+<p>    '261'</p>
+<br><div class="test"><p><strong>Test 14:</strong></p>
+<p>Trying:     student4.combine_len('?|yVqN*(7','%J<V','5,2Bu')</p>
+<p>Expecting:     [9, 4, 5]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('?|yVqN*(7','%J<V','5,2Bu')</p>
+<p>Expected:</p>
+<p>    [9, 4, 5]</p>
+<p>Got:</p>
+<p>    '945'</p>
+<br><div class="test"><p><strong>Test 15:</strong></p>
+<p>Trying:     student4.combine_len('jXgcy','TS[L`}8','auT&')</p>
+<p>Expecting:     [5, 7, 4]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('jXgcy','TS[L`}8','auT&')</p>
+<p>Expected:</p>
+<p>    [5, 7, 4]</p>
+<p>Got:</p>
+<p>    '574'</p>
+<br><div class="test"><p><strong>Test 16:</strong></p>
+<p>Trying:     student4.combine_len('3a K9R]k5','Z*a,L3vK','!*@')</p>
+<p>Expecting:     [9, 8, 3]</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.combine_len('3a K9R]k5','Z*a,L3vK','!*@')</p>
+<p>Expected:</p>
+<p>    [9, 8, 3]</p>
+<p>Got:</p>
+<p>    '983'</p>
+<br><p>Done Extra and Random Tests</p>
+<p>0 of 16 tests passed <span class="failed">(0.0% passed)</span></p>
+
+<br><br><h4> Running Property test </h4>
+<table  border="1" cellspacing="0" cellpadding="4"><tr>
+<th>Test Cases
+</th>
+<th>len(combine_len(s, t, u)) == 3</th>
+<th>Pass Rate
+</th><th>Pass Percentage</th></tr><tr>
+<th>s: ' kEH!q mz-'<br>t: '5<#5pj**HC'<br>u: 'N Wd i%f  '<br></th>
+<td style="color:red;">False</td>
+<td>0&nbspof&nbsp1</td>
+<td>0.0<span>&#37;</span></td></tr><tr>
+<th>s: 'INTervIEW'<br>t: 'newSpaper'<br>u: 'prESSuRe'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'tdummvsbzt'<br>t: 'axuvqwrvoo'<br>u: 'ttvqlsoilj'<br></th>
+<td style="color:red;">False</td>
+<td>0&nbspof&nbsp1</td>
+<td>0.0<span>&#37;</span></td></tr><tr>
+<th>s: 'DSGKPMDEBS'<br>t: 'QTAREJAFZO'<br>u: 'YZMYUPUHGC'<br></th>
+<td style="color:red;">False</td>
+<td>0&nbspof&nbsp1</td>
+<td>0.0<span>&#37;</span></td></tr><tr>
+<th>s: ''<br>t: ''<br>u: ''<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr></table></body>
+</html>

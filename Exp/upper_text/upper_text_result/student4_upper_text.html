@@ -1,0 +1,196 @@
+<html>
+<head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+h3 { margin-top: 40px; text-align: center; }
+h4 { margin-top: 30px; }
+p { margin: 0; }
+.test { margin-bottom: 20px; }
+.passed { color: green; }
+.failed { color: red; }
+</style>
+</head>
+<body>
+<h3>Running marker for upper_text on student4.upper_text</h3>
+<h4>Running Extra and Random Tests</h4>
+<br><div class="test"><p><strong>Test 1:</strong></p>
+<p>Trying:     student4.upper_text('cat')</p>
+<p>Expecting:     'CAT'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('cat')</p>
+<p>Expected:</p>
+<p>    'CAT'</p>
+<p>Got:</p>
+<p>    'AT'</p>
+<br><div class="test"><p><strong>Test 2:</strong></p>
+<p>Trying:     student4.upper_text('Sam!')</p>
+<p>Expecting:     'SAM!'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('Sam!')</p>
+<p>Expected:</p>
+<p>    'SAM!'</p>
+<p>Got:</p>
+<p>    'AM!'</p>
+<br><div class="test"><p><strong>Test 3:</strong></p>
+<p>Trying:     student4.upper_text('1 TWO 3 four')</p>
+<p>Expecting:     '1 TWO 3 FOUR'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('1 TWO 3 four')</p>
+<p>Expected:</p>
+<p>    '1 TWO 3 FOUR'</p>
+<p>Got:</p>
+<p>    ' TWO 3 FOUR'</p>
+<br><div class="test"><p><strong>Test 4:</strong></p>
+<p>Trying:     student4.upper_text('Hello, world!')</p>
+<p>Expecting:     'HELLO, WORLD!'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('Hello, world!')</p>
+<p>Expected:</p>
+<p>    'HELLO, WORLD!'</p>
+<p>Got:</p>
+<p>    'ELLO, WORLD!'</p>
+<br><div class="test"><p><strong>Test 5:</strong></p>
+<p>Trying:     student4.upper_text('')</p>
+<p>Expecting:     ''</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 6:</strong></p>
+<p>Trying:     student4.upper_text('.)x-a;t')</p>
+<p>Expecting:     '.)X-A;T'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('.)x-a;t')</p>
+<p>Expected:</p>
+<p>    '.)X-A;T'</p>
+<p>Got:</p>
+<p>    ')X-A;T'</p>
+<br><div class="test"><p><strong>Test 7:</strong></p>
+<p>Trying:     student4.upper_text('`Tt=')</p>
+<p>Expecting:     '`TT='</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('`Tt=')</p>
+<p>Expected:</p>
+<p>    '`TT='</p>
+<p>Got:</p>
+<p>    'TT='</p>
+<br><div class="test"><p><strong>Test 8:</strong></p>
+<p>Trying:     student4.upper_text('tWw];8i')</p>
+<p>Expecting:     'TWW];8I'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('tWw];8i')</p>
+<p>Expected:</p>
+<p>    'TWW];8I'</p>
+<p>Got:</p>
+<p>    'WW];8I'</p>
+<br><div class="test"><p><strong>Test 9:</strong></p>
+<p>Trying:     student4.upper_text('y6/<!')</p>
+<p>Expecting:     'Y6/<!'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('y6/<!')</p>
+<p>Expected:</p>
+<p>    'Y6/<!'</p>
+<p>Got:</p>
+<p>    '6/<!'</p>
+<br><div class="test"><p><strong>Test 10:</strong></p>
+<p>Trying:     student4.upper_text('T^&7')</p>
+<p>Expecting:     'T^&7'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('T^&7')</p>
+<p>Expected:</p>
+<p>    'T^&7'</p>
+<p>Got:</p>
+<p>    '^&7'</p>
+<br><div class="test"><p><strong>Test 11:</strong></p>
+<p>Trying:     student4.upper_text('l^')</p>
+<p>Expecting:     'L^'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('l^')</p>
+<p>Expected:</p>
+<p>    'L^'</p>
+<p>Got:</p>
+<p>    '^'</p>
+<br><div class="test"><p><strong>Test 12:</strong></p>
+<p>Trying:     student4.upper_text('c]ZiY36O')</p>
+<p>Expecting:     'C]ZIY36O'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('c]ZiY36O')</p>
+<p>Expected:</p>
+<p>    'C]ZIY36O'</p>
+<p>Got:</p>
+<p>    ']ZIY36O'</p>
+<br><div class="test"><p><strong>Test 13:</strong></p>
+<p>Trying:     student4.upper_text('#YxEL')</p>
+<p>Expecting:     '#YXEL'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('#YxEL')</p>
+<p>Expected:</p>
+<p>    '#YXEL'</p>
+<p>Got:</p>
+<p>    'YXEL'</p>
+<br><div class="test"><p><strong>Test 14:</strong></p>
+<p>Trying:     student4.upper_text('d>')</p>
+<p>Expecting:     'D>'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('d>')</p>
+<p>Expected:</p>
+<p>    'D>'</p>
+<p>Got:</p>
+<p>    '>'</p>
+<br><div class="test"><p><strong>Test 15:</strong></p>
+<p>Trying:     student4.upper_text('tL')</p>
+<p>Expecting:     'TL'</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student4.upper_text('tL')</p>
+<p>Expected:</p>
+<p>    'TL'</p>
+<p>Got:</p>
+<p>    'L'</p>
+<br><p>Done Extra and Random Tests</p>
+<p>1 of 15 tests passed <span class="failed">(6.7% passed)</span></p>
+
+<br><br><h4> Running Property test </h4>
+<table  border="1" cellspacing="0" cellpadding="4"><tr>
+<th>Test Cases
+</th>
+<th>len(s) == len(upper_text(s))</th>
+<th>Idempotent</th>
+<th>Pass Rate
+</th><th>Pass Percentage</th></tr><tr>
+<th>s: '-e@F { sj#'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: 'TreAT'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: 'acrienqthg'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: 'YTLYSIHRSZ'<br></th>
+<td style="color:red;">False</td>
+<td>True</td>
+<td>1&nbspof&nbsp2</td>
+<td>50.0<span>&#37;</span></td></tr><tr>
+<th>s: ''<br></th>
+<td>True</td>
+<td>True</td>
+<td>2&nbspof&nbsp2</td>
+<td>100.0<span>&#37;</span></td></tr></table></body>
+</html>

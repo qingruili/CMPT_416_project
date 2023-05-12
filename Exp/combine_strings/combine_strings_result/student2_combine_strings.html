@@ -1,0 +1,194 @@
+<html>
+<head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+h3 { margin-top: 40px; text-align: center; }
+h4 { margin-top: 30px; }
+p { margin: 0; }
+.test { margin-bottom: 20px; }
+.passed { color: green; }
+.failed { color: red; }
+</style>
+</head>
+<body>
+<h3>Running marker for combine_strings on student2.combine_strings</h3>
+<h4>Running Extra and Random Tests</h4>
+<br><div class="test"><p><strong>Test 1:</strong></p>
+<p>Trying:     student2.combine_strings('one', 'two', 'three')</p>
+<p>Expecting:     ['ONE', 'TWO', 'THREE']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('one', 'two', 'three')</p>
+<p>Expected:</p>
+<p>    ['ONE', 'TWO', 'THREE']</p>
+<p>Got:</p>
+<p>    ['one', 'two', 'three']</p>
+<br><div class="test"><p><strong>Test 2:</strong></p>
+<p>Trying:     student2.combine_strings('alAA', 'aBa', 'cat')</p>
+<p>Expecting:     ['ALAA', 'ABA', 'CAT']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('alAA', 'aBa', 'cat')</p>
+<p>Expected:</p>
+<p>    ['ALAA', 'ABA', 'CAT']</p>
+<p>Got:</p>
+<p>    ['alAA', 'aBa', 'cat']</p>
+<br><div class="test"><p><strong>Test 3:</strong></p>
+<p>Trying:     student2.combine_strings('Apple', 'sa', 'uce!')</p>
+<p>Expecting:     ['APPLE', 'SA', 'UCE!']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('Apple', 'sa', 'uce!')</p>
+<p>Expected:</p>
+<p>    ['APPLE', 'SA', 'UCE!']</p>
+<p>Got:</p>
+<p>    ['Apple', 'sa', 'uce!']</p>
+<br><div class="test"><p><strong>Test 4:</strong></p>
+<p>Trying:     student2.combine_strings('Gpe', '', '')</p>
+<p>Expecting:     ['GPE', '', '']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('Gpe', '', '')</p>
+<p>Expected:</p>
+<p>    ['GPE', '', '']</p>
+<p>Got:</p>
+<p>    ['Gpe', '', '']</p>
+<br><div class="test"><p><strong>Test 5:</strong></p>
+<p>Trying:     student2.combine_strings('', '', '')</p>
+<p>Expecting:     ['', '', '']</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 6:</strong></p>
+<p>Trying:     student2.combine_strings('a;Aple', 'baba', 'ckJJ')</p>
+<p>Expecting:     ['A;APLE', 'BABA', 'CKJJ']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('a;Aple', 'baba', 'ckJJ')</p>
+<p>Expected:</p>
+<p>    ['A;APLE', 'BABA', 'CKJJ']</p>
+<p>Got:</p>
+<p>    ['a;Aple', 'baba', 'ckJJ']</p>
+<br><div class="test"><p><strong>Test 7:</strong></p>
+<p>Trying:     student2.combine_strings('k]u','}f~]B,','|.d')</p>
+<p>Expecting:     ['K]U', '}F~]B,', '|.D']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('k]u','}f~]B,','|.d')</p>
+<p>Expected:</p>
+<p>    ['K]U', '}F~]B,', '|.D']</p>
+<p>Got:</p>
+<p>    ['k]u', '}f~]B,', '|.d']</p>
+<br><div class="test"><p><strong>Test 8:</strong></p>
+<p>Trying:     student2.combine_strings('*','-4',',%:HC')</p>
+<p>Expecting:     ['*', '-4', ',%:HC']</p></div>
+<p>ok</p>
+<br><div class="test"><p><strong>Test 9:</strong></p>
+<p>Trying:     student2.combine_strings('="kU?E ','.','7N;<|Ol4]l')</p>
+<p>Expecting:     ['="KU?E ', '.', '7N;<|OL4]L']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('="kU?E ','.','7N;<|Ol4]l')</p>
+<p>Expected:</p>
+<p>    ['="KU?E ', '.', '7N;<|OL4]L']</p>
+<p>Got:</p>
+<p>    ['="kU?E ', '.', '7N;<|Ol4]l']</p>
+<br><div class="test"><p><strong>Test 10:</strong></p>
+<p>Trying:     student2.combine_strings('aP)kGiI0','vRW/X','`b')</p>
+<p>Expecting:     ['AP)KGII0', 'VRW/X', '`B']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('aP)kGiI0','vRW/X','`b')</p>
+<p>Expected:</p>
+<p>    ['AP)KGII0', 'VRW/X', '`B']</p>
+<p>Got:</p>
+<p>    ['aP)kGiI0', 'vRW/X', '`b']</p>
+<br><div class="test"><p><strong>Test 11:</strong></p>
+<p>Trying:     student2.combine_strings('vA<&~|x |','T#=-*]','EoOXG(]R/(')</p>
+<p>Expecting:     ['VA<&~|X |', 'T#=-*]', 'EOOXG(]R/(']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('vA<&~|x |','T#=-*]','EoOXG(]R/(')</p>
+<p>Expected:</p>
+<p>    ['VA<&~|X |', 'T#=-*]', 'EOOXG(]R/(']</p>
+<p>Got:</p>
+<p>    ['vA<&~|x |', 'T#=-*]', 'EoOXG(]R/(']</p>
+<br><div class="test"><p><strong>Test 12:</strong></p>
+<p>Trying:     student2.combine_strings(',','KRi','Q:r')</p>
+<p>Expecting:     [',', 'KRI', 'Q:R']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings(',','KRi','Q:r')</p>
+<p>Expected:</p>
+<p>    [',', 'KRI', 'Q:R']</p>
+<p>Got:</p>
+<p>    [',', 'KRi', 'Q:r']</p>
+<br><div class="test"><p><strong>Test 13:</strong></p>
+<p>Trying:     student2.combine_strings('zK%tkR','r^!=J','vqm,C')</p>
+<p>Expecting:     ['ZK%TKR', 'R^!=J', 'VQM,C']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('zK%tkR','r^!=J','vqm,C')</p>
+<p>Expected:</p>
+<p>    ['ZK%TKR', 'R^!=J', 'VQM,C']</p>
+<p>Got:</p>
+<p>    ['zK%tkR', 'r^!=J', 'vqm,C']</p>
+<br><div class="test"><p><strong>Test 14:</strong></p>
+<p>Trying:     student2.combine_strings('wJ|','4ugLvu',' 6J7zVZU')</p>
+<p>Expecting:     ['WJ|', '4UGLVU', ' 6J7ZVZU']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('wJ|','4ugLvu',' 6J7zVZU')</p>
+<p>Expected:</p>
+<p>    ['WJ|', '4UGLVU', ' 6J7ZVZU']</p>
+<p>Got:</p>
+<p>    ['wJ|', '4ugLvu', ' 6J7zVZU']</p>
+<br><div class="test"><p><strong>Test 15:</strong></p>
+<p>Trying:     student2.combine_strings('Y','.igr{pq','[?')</p>
+<p>Expecting:     ['Y', '.IGR{PQ', '[?']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('Y','.igr{pq','[?')</p>
+<p>Expected:</p>
+<p>    ['Y', '.IGR{PQ', '[?']</p>
+<p>Got:</p>
+<p>    ['Y', '.igr{pq', '[?']</p>
+<br><div class="test"><p><strong>Test 16:</strong></p>
+<p>Trying:     student2.combine_strings('>JFx[0N_t@','h','<t~>')</p>
+<p>Expecting:     ['>JFX[0N_T@', 'H', '<T~>']</p></div>
+<p><strong>**********************************************************************</strong></p>
+<p>Failed example:</p>
+<p>    student2.combine_strings('>JFx[0N_t@','h','<t~>')</p>
+<p>Expected:</p>
+<p>    ['>JFX[0N_T@', 'H', '<T~>']</p>
+<p>Got:</p>
+<p>    ['>JFx[0N_t@', 'h', '<t~>']</p>
+<br><p>Done Extra and Random Tests</p>
+<p>2 of 16 tests passed <span class="failed">(12.5% passed)</span></p>
+
+<br><br><h4> Running Property test </h4>
+<table  border="1" cellspacing="0" cellpadding="4"><tr>
+<th>Test Cases
+</th>
+<th>len(combine_strings(s, t, u)) == 3</th>
+<th>Pass Rate
+</th><th>Pass Percentage</th></tr><tr>
+<th>s: '>AAV.  $21'<br>t: 'R=qc~Tb*nT'<br>u: '}9D~K8nc3A'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'KEy'<br>t: 'jUST'<br>u: 'deFeNSe'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'elbnzucqla'<br>t: 'mrdlajlcub'<br>u: 'irfrepapqb'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: 'GYVFGFMVGM'<br>t: 'ZDAAUYAMEO'<br>u: 'ZFARZKRXRR'<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr><tr>
+<th>s: ''<br>t: ''<br>u: ''<br></th>
+<td>True</td>
+<td>1&nbspof&nbsp1</td>
+<td>100.0<span>&#37;</span></td></tr></table></body>
+</html>
